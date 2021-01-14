@@ -1,0 +1,103 @@
+.header {
+	padding-top: 200px;
+	padding-bottom: 100px;
+	color: #fff;
+
+	background: #fffabfff;
+}
+
+h1 {
+	font-family: Freestyle Script;
+}
+
+h2 {
+	font-family: Garamond;
+}
+
+a {
+	text-decoration: none;
+	color: #4e3000ff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #4e3000ff;
+}
+
+.head-img {
+	width: 1000px;
+}
+
+#logo {
+	width: 450px;
+	padding: 25px 25px 25px;
+	transition: 0.3s;
+	margin: 0px 125px;
+}
+.ani {
+	width: 1920px;
+	position: fixed;
+	left: 0;
+	z-index: 3;
+}
+
+#nav {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: black;
+}
+
+#nav a {
+	padding: 15px;
+}
+
+@media (min-width: 992px) {
+	header {
+		min-height: 775px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.ingredient {
+		height: 65vh;
+
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.cookie {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+header .scale-up-center {
+	-webkit-animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1)
+		both;
+	animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@keyframes scale-up-center {
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@-moz-document url-prefix() {
+}
