@@ -1,12 +1,36 @@
+$(document).ready(function () {
+	console.log("document loaded");
+});
+
+$(window).on("load", function () {
+	console.log("window loaded");
+});
+
+$(document).ready(function () {
+	$(".owl-carousel").owlCarousel();
+});
+
+$(".owl-carousel").owlCarousel({
+	loop: true,
+	margin: 0,
+	nav: true,
+	responsive: {
+		0: {
+			items: 1,
+		},
+		600: {
+			items: 3,
+		},
+		1000: {
+			items: 5,
+		},
+	},
+});
+
 var browserWidth = $(window).width(),
 	cen = (1920 - browserWidth) / 2;
 
 $(".ani").css("left", -cen);
-
-// $("#path1").attr(
-// 	"d",
-// 	"M 344.88932,-0.29156356 C 345.12602,34.128848 305.13997,70.05644 254.52296,69.957983 203.90595,69.859525 163.04602,34.329486 162.57486,-0.35770935 Z"
-// );
 
 function morphRect() {
 	document.getElementById("ani-rect").beginElement();
@@ -23,13 +47,23 @@ $(window).on("scroll", function () {
 			morphRect();
 			cancel = 0;
 			$("#logo").css({ width: "170px", padding: "7px 0px" });
+			$("#nav").css({ visibility: "visible", opacity: "1" });
 			console.log("down");
 		} else {
 			return;
 		}
 	} else {
 		morphCircle();
-		$("#logo").css({ width: "450px", padding: "25px 25px 25px" });
+		var browserWidth = $(window).width();
+		if (browserWidth > 576) {
+			$("#logo").css({ width: "450px" });
+		} else {
+		}
+		if (browserWidth < 1572) {
+			$("#nav").css({ visibility: "hidden", opacity: "0" });
+		} else {
+		}
+
 		console.log("top");
 		cancel = 1;
 	}
