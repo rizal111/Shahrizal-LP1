@@ -1,233 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.css"> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link href="css/shahrizal-cookies.css" rel="stylesheet">
-    <title>Shahrizal Cookies</title>
-</head>
-<body>
-    <div class="ani">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.99997 70.469899" >
-            <path id="path1" fill="#ffff8dff" d="M 343.3349,-0.55614689 C 344.00804,16.350015 328.71594,39.110957 317.22186,47.513203 297.99032,64.576378 266.25915,70.147622 252.19552,70.137047 235.32876,69.972089 205.39578,63.713751 188.1898,47.50633 176.46952,35.472693 161.20351,16.852592 161.02044,-0.62229268 Z">
-            <animate id="ani-rect"  attributeType="XML" attributeName="d" 
-            from="M 343.3349,-0.55614689 C 344.00804,16.350015 328.71594,39.110957 317.22186,47.513203 297.99032,64.576378 266.25915,70.147622 252.19552,70.137047 235.32876,69.972089 205.39578,63.713751 188.1898,47.50633 176.46952,35.472693 161.20351,16.852592 161.02044,-0.62229268 Z"
-            to="m 508.09529,-0.34401763 c 0,0 -0.0975,7.12569753 -0.0975,17.95580063 -10.57579,0 -171.10498,-0.0056 -255.77323,-0.0067 -84.66825,-0.0011 -232.356566,0 -252.23625572,0 0,-10.1479191 0.01560416,-17.87858534 0.01560416,-17.87858534 z" 
-            begin="indefinite" dur="0.4s" fill="freeze" />
-            <animate id="ani-circle"  attributeType="XML" attributeName="d"
-            from="m 508.09529,-0.34401763 c 0,0 -0.0975,7.12569753 -0.0975,17.95580063 -10.57579,0 -171.10498,-0.0056 -255.77323,-0.0067 -84.66825,-0.0011 -232.356566,0 -252.23625572,0 0,-10.1479191 0.01560416,-17.87858534 0.01560416,-17.87858534 z"
-               to="M 343.3349,-0.55614689 C 344.00804,16.350015 328.71594,39.110957 317.22186,47.513203 297.99032,64.576378 266.25915,70.147622 252.19552,70.137047 235.32876,69.972089 205.39578,63.713751 188.1898,47.50633 176.46952,35.472693 161.20351,16.852592 161.02044,-0.62229268 Z" 
-               begin="indefinite" dur="0.4s" fill="freeze" />
-            <script href="/js/svg.js" />   
-        </path>
-        </svg>
-    </div>
-    <div id="flex-logo" class="d-flex justify-content-center fixed-top">
-        <div id=con-logo>
-            <img id="logo" src="./logo.png" alt=""></a>
-        </div>
-    </div>
-    <div id="nav" class="nav nav-pills nav-fill fixed-top">
-        <a class="nav-item active" href="">Ingredient</a>
-        <a class="nav-item nav1" href="">Cookies</a>
-        <a class="nav-item nav2 nav-link" href="">Review</a>
-        <a class="nav-item nav-link" href="">Contact</a>
-    </div>
-    <div id="menu" class="dropdown">
-        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-            Menu
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <li><a class="dropdown-item" href="#">Ingredient</a></li>
-          <li><a class="dropdown-item" href="#">Cookies</a></li>
-          <li><a class="dropdown-item" href="#">Review</a></li>
-          <li><a class="dropdown-item" href="#">Contact</a></li>
-        </ul>
-    </div>
-    <header class="header container-fluid position-relative">
-        <div class="row">
-            <div class="row justify-content-md-center">
-            <img class="head-img" src="cookie-1.png" alt="">
-            </div >
-        </div>
-        <div class="section-heading text-center head-text"> 
-            The best homemade cookie
-        </div>
-    </header>
-    <section class="ingredient" id="ingredient">
-        <div class="container p-3">
-            <div class="row justify-content-end my-5">
-                <div class="col-sm-4 ing-text">
-                    <h1>Tasty and Crunchie</h1> 
-                    <h2>using only the premium ingredient </h2>
-                </div> 
-            </div>  
-        </div>   
-    </section>
-    <section class="cookie" id="cookie">
-        <div class="container-md">
-            <div class="section-heading text-center my-3 py-3">
-                <h1>Cookies</h1>
-            </div>
-            <div class="row ">   
-                <div class="col-lg-4">
-                    <div class="cookies-icon"></div>
-                    <h2 class="mt-4">Chocolate</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                </div>
-                <div class="col-lg-4">
-                    <div class="cookies-icon"></div>
-                    <h2 class="mt-4">Dark Chocolate</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                </div>
-                <div class="col-lg-4">
-                    <div class="cookies-icon"></div>
-                    <h2 class="mt-4">Strawberry</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                </div>
-            </div>    
-        </div>
-    </section>
-    <div class="container-md">
-        <section class="review" id="review">
-            <div class="section-heading text-center my-3 py-3">
-                <h1>Review</h1>
-            </div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-                <div class="item">
-                    <div class="slide-img"></div>
-                    <div class="slide-title mt-3">Shahrizal, Petaling Jaya </div>
-                    <div class="slide-content">"Sangat sedap dan rangup"</div>
-                </div>
-            </div>
-        </section>
-        <section class="mb-3" id="contact">
-            <div class="section-heading text-center my-3 py-3">
-                <h1>Contact</h1>
-            </div>
-            <div class="row">
-                <div class="col-md-8 form">
-                    <div class="row g-2">
-                        <div class="col-5">
-                            <div class="form-floating mb-1">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                <label for="floatingInput">Name</label>
-                            </div>
-                        </div>
-                        <div class="col-7">
-                            <div class="form-floating mb-2">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email</label>
-                        </div>
-                    </div>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 130px"></textarea>
-                        <label for="floatingTextarea2">Text</label>
-                    </div>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-primary" type="button">Submit</button>
-                      </div>
-                </div>
-                    
-                </div>
-                <div class="col">
-                      <p class="h5 contact-1">Telefons</p>
-                      <p class="h6 contact-2">0000000000</p>
-                      <p class="h5 contact-1">Email</p>
-                      <p class="h6 contact-2">youremail@email.com</p>
-                      <p class="h5 contact-1">Address</p>
-                      <p class="h6 contact-2">this building, that street, coolcity, some postcode, huge region</p>
-                </div>
-            </div>
-    </section>
-    </div>
-   
-     
-    <footer>
-   
-        <div class="container pt-4">
-            <p>"Build by Shahrizal"</p>
-            <p>© Your Website 2020. All Rights Reserved.</p>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#">Privacy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">FAQ</a>
-              </li>
-            </ul>
-          </div>
-    </footer>
-    <div></div>
-    <div></div>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.svg.js"></script>
-<script src="/node_modules/jquery/dist/jquery.js"></script>
-<script src="owlcarousel/owl.carousel.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+		<link rel="stylesheet" href="owlcarousel/owl.theme.default.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+		<link href="css/shahrizal-cookies.css" rel="stylesheet" />
+		<title>Shahrizal Cookies</title>
+	</head>
+	<body>
+		<div class="ani">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.99997 70.469899">
+				<path
+					id="path1"
+					fill="#ffff8dff"
+					d="M 343.3349,-0.55614689 C 344.00804,16.350015 328.71594,39.110957 317.22186,47.513203 297.99032,64.576378 266.25915,70.147622 252.19552,70.137047 235.32876,69.972089 205.39578,63.713751 188.1898,47.50633 176.46952,35.472693 161.20351,16.852592 161.02044,-0.62229268 Z"
+				>
+					<animate
+						id="ani-rect"
+						attributeType="XML"
+						attributeName="d"
+						from="M 343.3349,-0.55614689 C 344.00804,16.350015 328.71594,39.110957 317.22186,47.513203 297.99032,64.576378 266.25915,70.147622 252.19552,70.137047 235.32876,69.972089 205.39578,63.713751 188.1898,47.50633 176.46952,35.472693 161.20351,16.852592 161.02044,-0.62229268 Z"
+						to="m 508.09529,-0.34401763 c 0,0 -0.0975,7.12569753 -0.0975,17.95580063 -10.57579,0 -171.10498,-0.0056 -255.77323,-0.0067 -84.66825,-0.0011 -232.356566,0 -252.23625572,0 0,-10.1479191 0.01560416,-17.87858534 0.01560416,-17.87858534 z"
+						begin="indefinite"
+						dur="0.4s"
+						fill="freeze"
+					/>
+					<animate
+						id="ani-circle"
+						attributeType="XML"
+						attributeName="d"
+						from="m 508.09529,-0.34401763 c 0,0 -0.0975,7.12569753 -0.0975,17.95580063 -10.57579,0 -171.10498,-0.0056 -255.77323,-0.0067 -84.66825,-0.0011 -232.356566,0 -252.23625572,0 0,-10.1479191 0.01560416,-17.87858534 0.01560416,-17.87858534 z"
+						to="M 343.3349,-0.55614689 C 344.00804,16.350015 328.71594,39.110957 317.22186,47.513203 297.99032,64.576378 266.25915,70.147622 252.19552,70.137047 235.32876,69.972089 205.39578,63.713751 188.1898,47.50633 176.46952,35.472693 161.20351,16.852592 161.02044,-0.62229268 Z"
+						begin="indefinite"
+						dur="0.4s"
+						fill="freeze"
+					/>
+					<script href="/js/svg.js" />
+				</path>
+			</svg>
+		</div>
+		<div id="flex-logo" class="d-flex justify-content-center fixed-top">
+			<div id="con-logo">
+				<img id="logo" src="./logo.png" alt="" />
+			</div>
+		</div>
+		<div id="nav" class="nav nav-pills nav-fill fixed-top">
+			<a class="nav-item active" href="#ingLink">Ingredient</a>
+			<a class="nav-item nav1" href="#cookieLink">Cookies</a>
+			<a class="nav-item nav2 nav-link anchor" href="#reviewLink">Review</a>
+			<a class="nav-item nav-link" href="#ContactLink">Contact</a>
+		</div>
+		<div id="menu" class="dropdown">
+			<button
+				class="btn btn-secondary"
+				type="button"
+				id="dropdownMenuButton"
+				data-bs-toggle="dropdown"
+				aria-expanded="false"
+			>
+				Menu
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<li><a class="dropdown-item" href="#">Ingredient</a></li>
+				<li><a class="dropdown-item" href="#">Cookies</a></li>
+				<li><a class="dropdown-item" href="#">Review</a></li>
+				<li><a class="dropdown-item" href="#">Contact</a></li>
+			</ul>
+		</div>
+		<header ader class="header container-fluid position-relative">
+			<div class="row">
+				<div class="row justify-content-md-center">
+					<img class="head-img" src="cookie-1.png" alt="" />
+				</div>
+			</div>
+			<div class="section-heading text-center head-text">
+				The best homemade cookie
+			</div>
+		</header>
+		<section class="ingredient" id="ingredient">
+			<div class="deco1">
+				<img src="deco1.png" class="" alt="" />
+			</div>
+			<div class="anchorOffset" id="ingLink"></div>
+			<div class="container p-3">
+				<div class="row justify-content-end my-5">
+					<div class="col-sm-4 ing-text">
+						<h1>Tasty and Crunchie</h1>
+						<h2>using only the premium ingredient</h2>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<script src="./js/app.js"></script>
+		<section class="cookie" id="cookie">
+			<img src="shadow.png" class="deco1" alt="" />
+
+			<div class="anchorOffset" id="cookieLink"></div>
+			<div class="container-md">
+				<div class="section-heading text-center my-3 py-3">
+					<h1>Cookies</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="cookies-icon"></div>
+						<h2 class="mt-4">Chocolate</h2>
+						<p>
+							Donec sed odio dui. Etiam porta sem malesuada magna mollis
+							euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+							Praesent commodo cursus magna.
+						</p>
+					</div>
+					<div class="col-lg-4">
+						<div class="cookies-icon"></div>
+						<h2 class="mt-4">Dark Chocolate</h2>
+						<p>
+							Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+							eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
+							amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
+							mauris condimentum nibh.
+						</p>
+					</div>
+					<div class="col-lg-4">
+						<div class="cookies-icon"></div>
+						<h2 class="mt-4">Strawberry</h2>
+						<p>
+							Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+							egestas eget quam. Vestibulum id ligula porta felis euismod
+							semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+							condimentum nibh, ut fermentum massa justo sit amet risus.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container-md">
+			<div class="anchorOffset" id="reviewLink"></div>
+			<section class="review">
+				<div class="section-heading text-center my-3 py-3">
+					<h1>Review</h1>
+				</div>
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+					<div class="item">
+						<div class="slide-img"></div>
+						<div class="slide-title mt-3">Shahrizal, Petaling Jaya</div>
+						<div class="slide-content">"Sangat sedap dan rangup"</div>
+					</div>
+				</div>
+			</section>
+			<section class="mb-3" id="contact">
+				<div class="anchorOffset" id="ContactLink"></div>
+				<div class="section-heading text-center my-3 py-3">
+					<h1>Contact</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-8 form">
+						<div class="row g-2">
+							<div class="col-5">
+								<div class="form-floating mb-1">
+									<input
+										type="email"
+										class="form-control"
+										id="floatingInput"
+										placeholder="name@example.com"
+									/>
+									<label for="floatingInput">Name</label>
+								</div>
+							</div>
+							<div class="col-7">
+								<div class="form-floating mb-2">
+									<input
+										type="email"
+										class="form-control"
+										id="floatingInput"
+										placeholder="name@example.com"
+									/>
+									<label for="floatingInput">Email</label>
+								</div>
+							</div>
+							<div class="form-floating">
+								<textarea
+									class="form-control"
+									placeholder="Leave a comment here"
+									id="floatingTextarea2"
+									style="height: 130px"
+								></textarea>
+								<label for="floatingTextarea2">Text</label>
+							</div>
+							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+								<button class="btn btn-primary" type="button">Submit</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<p class="h5 contact-1">Telefons</p>
+						<p class="h6 contact-2">0000000000</p>
+						<p class="h5 contact-1">Email</p>
+						<p class="h6 contact-2">youremail@email.com</p>
+						<p class="h5 contact-1">Address</p>
+						<p class="h6 contact-2">
+							this building, that street, coolcity, some postcode, huge region
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="container pt-4">
+				<p>"Build by Shahrizal"</p>
+				<p>© Your Website 2020. All Rights Reserved.</p>
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="#">Privacy</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">Terms</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">FAQ</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<div></div>
+		<div></div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.svg.js"></script>
+	<script src="/node_modules/jquery/dist/jquery.js"></script>
+	<script src="owlcarousel/owl.carousel.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"
+	></script>
+
+	<script src="./js/app.js"></script>
 </html>

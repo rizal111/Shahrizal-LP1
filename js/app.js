@@ -55,7 +55,7 @@ $(window).on("scroll", function () {
 	} else {
 		morphCircle();
 		var browserWidth = $(window).width();
-		if (browserWidth > 576) {
+		if (browserWidth > 860) {
 			$("#logo").css({ width: "450px" });
 		} else {
 		}
@@ -74,4 +74,12 @@ $(window).on("resize", function () {
 	var cen = (1920 - browserWidth) / 2;
 	$(".ani").css("left", -cen);
 	console.log(cen);
+	if ((browserWidth < 1572) & $(window).scrollTop()) {
+		$("#nav").css({ visibility: "hidden", opacity: "0" });
+	} else {
+		$("#nav").css({ visibility: "visible", opacity: "1" });
+	}
+	if ((browserWidth > 860) & $(window).scrollTop()) {
+		$("#logo").css({ width: "450px" });
+	}
 });
