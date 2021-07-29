@@ -27,6 +27,11 @@ $(".owl-carousel").owlCarousel({
 	},
 });
 
+$("#con-logo").click(function() {
+	console.log("logo clicked");
+	window.scrollTo({ top: 0, behavior: 'smooth' });
+})
+
 var browserWidth = $(window).width(),
 	cen = (1920 - browserWidth) / 2;
 
@@ -61,8 +66,7 @@ $(window).on("scroll", function () {
 		}
 		if (browserWidth < 1572) {
 			$("#nav").css({ visibility: "hidden", opacity: "0" });
-		} else {
-		}
+		} 
 
 		console.log("top");
 		cancel = 1;
@@ -82,4 +86,5 @@ $(window).on("resize", function () {
 	if ((browserWidth > 860) & $(window).scrollTop()) {
 		$("#logo").css({ width: "450px" });
 	}
+	
 });
